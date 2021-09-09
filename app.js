@@ -17,7 +17,7 @@ if(sum&&dateOfBirth)
 checkluck(sum,LuckyNmuber)
 }
 else{
-    output.innerHTML = "Please enter both date-of-birth and your lucky number";
+    output.innerHTML = "Please enter both date-of-birth and your lucky number🙂";
 }
 
 }
@@ -41,10 +41,10 @@ function checkluck(sum,LuckyNmuber)
     if(sum % LuckyNmuber === 0)
     {
     // console.log("your birthday is lucky")}
-    output.innerHTML ="WOAH!! Your birthday is lucky!!"
+    output.innerHTML ="WOAH!! Your birthday is lucky!!🤩"
     }
     else{
         // console.log("ypur bdy is not lucky")}
-        output.innerHTML = "OOPS!!! Your birthday is not lucky";
+        output.innerHTML = "OOPS!!! Your birthday is not lucky🙁";
     }
 }
